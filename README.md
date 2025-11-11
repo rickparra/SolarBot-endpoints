@@ -540,6 +540,32 @@ Veja mais detalhes em [`Tests/README.md`](Tests/README.md)
 
 A documentação interativa da API está disponível através do Swagger quando a aplicação está em modo de desenvolvimento. Acesse `/swagger` após iniciar a aplicação.
 
+## 📊 Diagramas da Aplicação
+
+### 1. Fluxo de Requisições (CRUD + Estatísticas)
+
+Este diagrama ilustra o fluxo completo de requisições HTTP para todas as operações CRUD e o endpoint de estatísticas.
+
+![Fluxo de Requisições](images/1.%20Fluxo%20de%20Requisições%20(CRUD%20+%20Estatísticas).png)
+
+### 2. Arquitetura da Aplicação
+
+Este diagrama apresenta a arquitetura geral da aplicação, mostrando as camadas e componentes do sistema.
+
+![Arquitetura da Aplicação](images/2.%20Arquitetura%20da%20Aplicacao.png)
+
+### 3. Modelo de Dados (Entidade PainelSolar)
+
+Este diagrama detalha o modelo de dados da entidade `PainelSolar`, mostrando todos os campos e seus tipos.
+
+![Modelo de Dados](images/3.%20Modelo%20de%20Dados%20(Entidade%20PainelSolar).png)
+
+### 4. Fluxo de Execução do Sistema
+
+Este diagrama mostra o fluxo de execução completo do sistema, desde a requisição até a resposta.
+
+![Fluxo de Execução](images/4.%20Fluxo%20de%20Execucao%20do%20Sistema.png)
+
 ## ✅ Checklist de Requisitos do Projeto
 
 ### 1. Boas Práticas (30 pts) - ✅ COMPLETO
@@ -575,7 +601,7 @@ A documentação interativa da API está disponível através do Swagger quando 
   - ⚠️ Nomes dos integrantes (adicionar)
   - ✅ Descrição do projeto e funcionalidades
   - ✅ Instruções de execução
-  - ❌ Fluxo da aplicação no Draw.io (pendente)
+  - ✅ Fluxo da aplicação no Draw.io (diagramas adicionados)
   - ❌ Link do vídeo demonstrativo (pendente)
 - ✅ **Documentação com Swagger** - Interface interativa completa
 - ✅ **Funcionamento dos endpoints explicado** - Exemplos de uso documentados
@@ -585,26 +611,21 @@ A documentação interativa da API está disponível através do Swagger quando 
 - **Boas Práticas**: 30/30 ✅
 - **Versionamento**: 10/10 ✅
 - **Integração e Persistência**: 25/30 ⚠️ (LiteDB em vez de EF Core)
-- **Documentação**: 25/30 ⚠️ (falta Draw.io e vídeo)
+- **Documentação**: 28/30 ⚠️ (diagramas adicionados, falta vídeo)
 
-**Total Estimado: 90/100**
+**Total Estimado: 93/100**
 
-## 👥 Integrantes
+## 👥 Equipe de Desenvolvimento
 
-- [Adicione os nomes dos integrantes aqui]
+Este projeto é desenvolvido por estudantes da FIAP da 3ESPV:
 
-## 📹 Vídeo Demonstrativo
+- **Henrique Parra Benitez** (RM551973) - 3ESPV  
+
+- **Roberto Oliveira Azzalin Navas** (RM551460) - 3ESPV  
+
+- **Tony Willian da Silva Segalin** (RM550667) - 3ESPV  
 
 [Adicione o link do vídeo demonstrando o projeto (máx. 5 min)]
 
-## 📊 Diagrama de Fluxo
-
-[Adicione o link do diagrama Draw.io aqui]
 
 ## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais.
-
-## 🤝 Contribuindo
-
-Este é um projeto acadêmico. Para sugestões ou melhorias, entre em contato com a equipe.
