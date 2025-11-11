@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SolarBot</name>
+    </assembly>
+    <members>
+        <member name="M:SolarBot.Controllers.PaineisSolaresController.GetPaineisSolares">
+            <summary>
+            Lista todos os painéis solares cadastrados
+            </summary>
+            <returns>Lista de painéis solares</returns>
+        </member>
+        <member name="M:SolarBot.Controllers.PaineisSolaresController.GetPainelSolar(System.Int32)">
+            <summary>
+            Busca um painel solar específico por ID
+            </summary>
+            <param name="id">ID do painel solar</param>
+            <returns>Painel solar encontrado</returns>
+        </member>
+        <member name="M:SolarBot.Controllers.PaineisSolaresController.PostPainelSolar(SolarBot.Models.PainelSolar)">
+            <summary>
+            Cria um novo painel solar
+            </summary>
+            <param name="painel">Dados do painel solar a ser criado</param>
+            <returns>Painel solar criado</returns>
+        </member>
+        <member name="M:SolarBot.Controllers.PaineisSolaresController.PutPainelSolar(System.Int32,SolarBot.Models.PainelSolar)">
+            <summary>
+            Atualiza um painel solar existente
+            </summary>
+            <param name="id">ID do painel solar</param>
+            <param name="painel">Dados atualizados do painel solar</param>
+            <returns>Nenhum conteúdo</returns>
+        </member>
+        <member name="M:SolarBot.Controllers.PaineisSolaresController.DeletePainelSolar(System.Int32)">
+            <summary>
+            Remove um painel solar
+            </summary>
+            <param name="id">ID do painel solar</param>
+            <returns>Nenhum conteúdo</returns>
+        </member>
+        <member name="M:SolarBot.Controllers.PaineisSolaresController.GetEstatisticas">
+            <summary>
+            Retorna estatísticas sobre os painéis solares
+            </summary>
+            <returns>Estatísticas dos painéis solares</returns>
+        </member>
+    </members>
+</doc>
