@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SolarBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcd787584b7309ff3ec29382afc8edc7a4a0e331")]
 [assembly: System.Reflection.AssemblyProductAttribute("SolarBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SolarBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

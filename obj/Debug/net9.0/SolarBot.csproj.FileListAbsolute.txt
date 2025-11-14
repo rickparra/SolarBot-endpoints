@@ -38,3 +38,4 @@ A:\1henrique\FIAP\c-sharp\GS2\SolarBot\bin\Debug\net9.0\SolarBot.pdb
 A:\1henrique\FIAP\c-sharp\GS2\SolarBot\bin\Debug\net9.0\SolarBot.xml
 A:\1henrique\FIAP\c-sharp\GS2\SolarBot\obj\Debug\net9.0\SolarBot.genruntimeconfig.cache
 A:\1henrique\FIAP\c-sharp\GS2\SolarBot\obj\Debug\net9.0\ref\SolarBot.dll
+A:\1henrique\FIAP\c-sharp\GS2\SolarBot\obj\Debug\net9.0\SolarBot.sourcelink.json

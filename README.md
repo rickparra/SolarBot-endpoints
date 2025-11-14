@@ -566,55 +566,6 @@ Este diagrama mostra o fluxo de execução completo do sistema, desde a requisi�
 
 ![Fluxo de Execução](images/4.%20Fluxo%20de%20Execucao%20do%20Sistema.png)
 
-## ✅ Checklist de Requisitos do Projeto
-
-### 1. Boas Práticas (30 pts) - ✅ COMPLETO
-
-- ✅ **API RESTful implementada** - Todos os endpoints seguem princípios REST
-- ✅ **Status codes adequados** - Utiliza 200, 201, 204, 400, 404, 500 corretamente
-- ✅ **Verbos HTTP corretos** - GET (consulta), POST (criação), PUT (atualização), DELETE (remoção)
-- ✅ **Rotas claras e consistentes** - Padrão `/api/v1/paineis-solares` em todos os endpoints
-- ✅ **Código limpo e organizado** - Estrutura com Controllers, Services, Models separados
-
-### 2. Versionamento da API (10 pts) - ✅ COMPLETO
-
-- ✅ **Versionamento implementado** - Todas as rotas usam `/api/v1/...`
-- ✅ **Controle de versões explicado** - Documentado na seção "Versionamento da API"
-- ✅ **Estrutura para futuras versões** - Preparado para `/api/v2` quando necessário
-
-### 3. Integração e Persistência (30 pts) - ⚠️ PARCIAL
-
-- ✅ **Banco de dados NoSQL integrado** - LiteDB (arquivo local, sem necessidade de servidor)
-- ❌ **Entity Framework Core** - Não utilizado (projeto usa LiteDB diretamente por ser NoSQL)
-- ✅ **Operações CRUD com persistência** - Create, Read, Update, Delete funcionando
-- ✅ **Modelos de dados bem definidos** - Classe `PainelSolar` com todas propriedades necessárias
-
-**Nota:** O projeto utiliza **LiteDB** (banco NoSQL) em vez de Entity Framework Core. LiteDB foi escolhido por ser:
-- Banco de dados NoSQL embutido (sem necessidade de servidor)
-- Arquivo local simples
-- Sem necessidade de credenciais ou instalação
-- Ideal para prototipagem e desenvolvimento
-
-### 4. Documentação (30 pts) - ⚠️ PARCIAL
-
-- ✅ **README completo** - Com todas as instruções
-  - ⚠️ Nomes dos integrantes (adicionar)
-  - ✅ Descrição do projeto e funcionalidades
-  - ✅ Instruções de execução
-  - ✅ Fluxo da aplicação no Draw.io (diagramas adicionados)
-  - ❌ Link do vídeo demonstrativo (pendente)
-- ✅ **Documentação com Swagger** - Interface interativa completa
-- ✅ **Funcionamento dos endpoints explicado** - Exemplos de uso documentados
-
-### Pontuação Estimada
-
-- **Boas Práticas**: 30/30 ✅
-- **Versionamento**: 10/10 ✅
-- **Integração e Persistência**: 25/30 ⚠️ (LiteDB em vez de EF Core)
-- **Documentação**: 28/30 ⚠️ (diagramas adicionados, falta vídeo)
-
-**Total Estimado: 93/100**
-
 ## 👥 Equipe de Desenvolvimento
 
 Este projeto é desenvolvido por estudantes da FIAP da 3ESPV:
